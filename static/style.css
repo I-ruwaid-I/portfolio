@@ -1,0 +1,200 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@100&display=swap');
+
+
+html{
+	background: #0a0908;
+	width: 100%;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+	height: 300vh;
+}
+
+.mini-bar{
+	position: absolute;
+	right: 0px;top: 0px;
+	width: 20vw;
+	height: 45px;
+	border-radius: 0px 0px 0px 20px;
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.main-display{
+	width: 40%;
+	height: 400px;
+	position: absolute;
+	top: 20vh;
+	left: 10vw;
+	color: whitesmoke;
+	font-family: Poppins;
+	font-weight: bolder;
+	font-size: 5vw;
+
+}
+
+.main-display>h3{
+	font-size: 1.3vw;
+	font-weight: 100;
+	color: rgb(131, 120, 236);
+}
+
+.display{
+	animation: shake 10s;
+	animation-iteration-count: infinite;
+	position: absolute;
+	top: 20vh;
+	right: 10vw;
+	box-shadow: 0px 20px 30px;
+	width: 40vw;
+	border-radius: 15px;
+
+}
+
+@keyframes shake {
+  0% { transform: translate(0px, 5px); }
+  10% { transform: translate(0px, -5px); }
+  20% { transform: translate(0px, 5px); }
+  30% { transform: translate(0px, -5px); }
+  40% { transform: translate(0px, 5px); }
+  50% { transform: translate(0px, -5px); }
+  60% { transform: translate(0px, 5px); }
+  70% { transform: translate(0px, -5px); }
+  80% { transform: translate(0px, 5px); }
+  90% { transform: translate(0px, -5px); }
+  100% { transform: translate(0px, 5px); }
+}
+
+.mini-bar > a >img {
+	max-width: 3vw;
+}
+
+.mini-bar > a{
+	margin-left: 15%;
+}
+
+.block1{
+	width: 20vw;
+	height: 28vh;
+	background: #d0f4de;
+	position: absolute;
+	top: 10vh;
+	right: 10vh;
+	border-radius: 0px 15px 0px 0px;
+	overflow: hidden;
+	animation: shake 13s;
+	animation-iteration-count: infinite;
+}
+
+.block1 > img{
+	width: 4.5vw;
+	margin-left: 18px;
+	margin-top: 25px;
+}
+
+.block1 > img:nth-child(2n+1){
+	background: #a9def9;
+	border-radius: 10px;
+}
+
+.logo{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 5vw;
+	animation: none;
+	border-radius: 0px;
+	margin: 20px;
+}
+
+.Skillset{
+	width: 100%;
+	position: absolute;
+	top: 100vh;
+	
+}
+.Skillset>h1{
+	margin: 20px;
+	position: absolute;
+	font-family: 'K2D', sans-serif;
+	color: white;
+}
+
+.Skillset>.set-container>.skills{
+	width: 5vw;height: 10vh;
+	animation: none;
+	background: transparent;
+	margin-top:15vh ;
+	-webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.set-container{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+span{
+	font-weight: 100;
+	font-family: K2D;
+	color: dimgray;
+}
+
+.projects{
+	color: whitesmoke;
+	font-family: K2D;
+	position: absolute;
+	width: 100%;top: 140vh;
+	margin: 20px;
+}
+
+.cards{
+	height: 50vh;
+	width: 20vw;
+	background: whitesmoke;
+	border-radius: 20px;
+	
+}
+
+.project-set{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.Pro-A{
+	text-decoration: none;
+	font-size: 1.5vw;
+	margin-top: 100px;
+	color: rgb(131, 120, 236);
+	width: 10vw;
+	position: absolute;
+	left: 42vw;
+	border-color:rgb(131, 120, 236) ;
+	border-width: 1px;
+	border-style: solid;
+	text-align: center;
+	transition: 1s ease;
+}
+
+.Pro-A:hover{
+	color: black;
+	background: rgb(131, 120, 236);
+}
+
+.container{
+	background: #161a1d;
+}
+.footer-09{
+	background: #161a1d;
+}
+.footer-09 .footer-heading .icon{
+	color: rgb(131, 120, 236);
+	border: 1px solid rgb(131, 120, 236);
+}
+.footer-09 .subscribe-form .form-group .submit{
+	background: rgb(131, 120, 236);
+}
+
+.footer-09 .subscribe-form .form-group input{
+	border: 1px solid rgb(131, 120, 236);
+}

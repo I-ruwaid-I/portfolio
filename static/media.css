@@ -1,0 +1,27 @@
+@media only screen and (max-width: 600px){
+	.Skillset{
+		position: absolute;
+		top: 55vh;
+	}
+	.projects{
+		top: 90vh;
+	}
+	.cards{
+		height: 25vh;	
+	}
+	.Pro-A{
+		font-size: 1.5rem;
+		width: 15vw;
+		left: 40vw;
+	}
+	.container{
+		background: #161a1d;
+	}
+	.footer-09{
+		background: #161a1d;
+	}
+	.footer-09 .footer-heading .icon{
+		color: rgb(131, 120, 236);
+		border: 1px solid rgb(131, 120, 236);
+	}
+}
